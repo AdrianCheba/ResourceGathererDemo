@@ -1,0 +1,7 @@
+[merge]
+  tool = unityyamlmerge
+[mergetool "unityyamlmerge"]
+  trustExitCode = false
+  cmd = 'GitTools/UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+[core]
+  autocrlf = false
